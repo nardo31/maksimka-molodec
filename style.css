@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    flex-wrap: nowrap;
+    font-family: Tahoma;
+    color: #f1f1f1;
+    font-size: 14px;
+}
+.header {
+    background-color: rgb(44, 44, 44);
+    padding: 22px 0px;
+}
+.header-container {
+    max-width: 1540px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link {
+    color: #f1f1f1;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 11px;
+    margin-left: 11px;
+}
+.logo {
+    color: #f1f1f1;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.button{
+    color: #f1f1f1;
+}
+.login {
+    color: #f1f1f1;
+    font-size: 14px;
+    font-weight: 400px;
+    text-decoration: none;
+}
+
+    /* Главная секция*/
+.hero {
+    color: rgb(34, 34, 34);
+    padding-top: 62px;
+    padding-bottom: 71px;
+}
+.hero-container {
+    max-width: 1220px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+.hero-image {
+    margin-right: 122px;
+}
+.title {
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.subtitle {
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 48px;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 49px;
+}
+.info-text {
+    flex-basis: 45%;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.pricetag {
+    font-weight: 400;
+    font-size: 55px;
+    margin-right: 64px;
+}
+.favorites {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+.button {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 22px 50px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+.button-primary {
+    background-color: #fc4aff;
+    color: #f1f1f1;
+    margin-right: 20px;
+}
+.button-outline{
+    color: #fc4aff;
+    border: 2px solid #fc4aff;
+    text-decoration: none;
+}
+.fact-container {
+    color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+}
+.fact-about {
+    max-width: 333px;
+    flex-shrink: 0;
+}
+.fact-img {
+    min-width: 333px;
+}
